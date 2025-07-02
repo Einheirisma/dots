@@ -1,0 +1,502 @@
+[Info  - 5:31:14 PM] 2025/06/11 17:31:14 Created View (#1)
+	directory=/home/ame/code
+	view_type="AdHoc"
+	root_dir="file:///home/ame/code"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:31:14 PM] 2025/06/11 17:31:14 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/ame/code
+	query=[./ builtin]
+	packages=2
+	duration=21.888075ms
+
+[Info  - 5:31:14 PM] 2025/06/11 17:31:14 Created View (#2)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/workers/email-worker"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:31:14 PM] 2025/06/11 17:31:14 go/packages.Load #2
+	view_id="2"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/workers/email-worker/... builtin]
+	packages=2
+	duration=165.789852ms
+
+[Info  - 5:31:23 PM] 2025/06/11 17:31:23 Created View (#3)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:31:23 PM] 2025/06/11 17:31:23 go/packages.Load #3
+	view_id="3"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=213.995735ms
+
+[Error - 5:31:23 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:31:29 PM] 2025/06/11 17:31:29 Created View (#4)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:31:29 PM] 2025/06/11 17:31:29 go/packages.Load #4
+	view_id="4"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=212.573356ms
+
+[Error - 5:31:29 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:31:44 PM] 2025/06/11 17:31:44 background imports cache refresh starting
+
+[Info  - 5:31:44 PM] 2025/06/11 17:31:44 background refresh finished after 5.87812ms
+
+[Info  - 5:31:59 PM] 2025/06/11 17:31:59 background imports cache refresh starting
+
+[Info  - 5:32:00 PM] 2025/06/11 17:32:00 background refresh finished after 531.4024ms
+
+[Info  - 5:34:31 PM] 2025/06/11 17:34:31 Created View (#5)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:31 PM] 2025/06/11 17:34:31 go/packages.Load #5
+	view_id="5"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=228.166627ms
+
+[Error - 5:34:31 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:34:38 PM] 2025/06/11 17:34:38 Created View (#6)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:38 PM] 2025/06/11 17:34:38 go/packages.Load #6
+	view_id="6"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=251.713466ms
+
+[Info  - 5:34:41 PM] 2025/06/11 17:34:41 Created View (#7)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:42 PM] 2025/06/11 17:34:42 go/packages.Load #7
+	view_id="7"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=190.772116ms
+
+[Info  - 5:34:42 PM] 2025/06/11 17:34:42 Created View (#8)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:43 PM] 2025/06/11 17:34:43 go/packages.Load #8
+	view_id="8"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=253.608415ms
+
+[Info  - 5:34:44 PM] 2025/06/11 17:34:44 Created View (#9)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:45 PM] 2025/06/11 17:34:45 go/packages.Load #9
+	view_id="9"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=184.670113ms
+
+[Info  - 5:34:46 PM] 2025/06/11 17:34:46 Created View (#10)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:47 PM] 2025/06/11 17:34:47 go/packages.Load #10
+	view_id="10"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=241.297135ms
+
+[Info  - 5:34:47 PM] 2025/06/11 17:34:47 Created View (#11)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:47 PM] 2025/06/11 17:34:47 go/packages.Load #11
+	view_id="11"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=195.190071ms
+
+[Info  - 5:34:48 PM] 2025/06/11 17:34:48 Created View (#12)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:49 PM] 2025/06/11 17:34:49 go/packages.Load #12
+	view_id="12"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=173.924249ms
+
+[Info  - 5:34:54 PM] 2025/06/11 17:34:54 Created View (#13)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:34:54 PM] 2025/06/11 17:34:54 go/packages.Load #13
+	view_id="13"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=241.515468ms
+
+[Info  - 5:35:24 PM] 2025/06/11 17:35:24 background imports cache refresh starting
+
+[Info  - 5:35:24 PM] 2025/06/11 17:35:24 background refresh finished after 49.080473ms
+
+[Info  - 5:36:57 PM] 2025/06/11 17:36:57 Created View (#14)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:36:57 PM] 2025/06/11 17:36:57 go/packages.Load #14
+	view_id="14"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=261.981455ms
+
+[Info  - 5:37:27 PM] 2025/06/11 17:37:27 background imports cache refresh starting
+
+[Info  - 5:37:27 PM] 2025/06/11 17:37:27 background refresh finished after 54.099117ms
+
+[Info  - 6:25:39 PM] 2025/06/11 18:25:39 Created View (#15)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 6:25:39 PM] 2025/06/11 18:25:39 go/packages.Load #15
+	view_id="15"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=218.154847ms
+
+[Error - 6:25:39 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 6:26:09 PM] 2025/06/11 18:26:09 background imports cache refresh starting
+
+[Info  - 6:26:09 PM] 2025/06/11 18:26:09 background refresh finished after 54.084833ms
+
+[Info  - 6:50:22 PM] 2025/06/11 18:50:22 Created View (#16)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 6:50:22 PM] 2025/06/11 18:50:22 go/packages.Load #16
+	view_id="16"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=232.384347ms
+
+[Error - 6:50:22 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 6:50:52 PM] 2025/06/11 18:50:52 background imports cache refresh starting
+
+[Info  - 6:50:52 PM] 2025/06/11 18:50:52 background refresh finished after 71.971529ms
+
+[Info  - 6:52:12 PM] 2025/06/11 18:52:12 Created View (#17)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 6:52:13 PM] 2025/06/11 18:52:13 go/packages.Load #17
+	view_id="17"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=185.708778ms
+
+[Error - 6:52:13 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 6:52:42 PM] 2025/06/11 18:52:42 background imports cache refresh starting
+
+[Info  - 6:52:42 PM] 2025/06/11 18:52:42 background refresh finished after 51.672738ms
+
+[Info  - 6:59:38 PM] 2025/06/11 18:59:38 Created View (#18)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 6:59:38 PM] 2025/06/11 18:59:38 go/packages.Load #18
+	view_id="18"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=205.103097ms
+
+[Info  - 7:00:08 PM] 2025/06/11 19:00:08 background imports cache refresh starting
+
+[Info  - 7:00:08 PM] 2025/06/11 19:00:08 background refresh finished after 55.551599ms
+
+[Info  - 7:00:38 PM] 2025/06/11 19:00:38 Created View (#19)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 7:00:38 PM] 2025/06/11 19:00:38 go/packages.Load #19
+	view_id="19"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=182.071086ms
+
+[Error - 7:00:38 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 7:01:02 PM] 2025/06/11 19:01:02 Created View (#20)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 7:01:02 PM] 2025/06/11 19:01:02 go/packages.Load #20
+	view_id="20"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=202.328688ms
+
+[Info  - 7:01:06 PM] 2025/06/11 19:01:06 Created View (#21)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 7:01:06 PM] 2025/06/11 19:01:06 go/packages.Load #21
+	view_id="21"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=258.366442ms
+
+[Info  - 7:01:11 PM] 2025/06/11 19:01:11 Created View (#22)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 7:01:11 PM] 2025/06/11 19:01:11 go/packages.Load #22
+	view_id="22"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=182.983544ms
+
+[Info  - 7:01:31 PM] 2025/06/11 19:01:31 Created View (#23)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 7:01:31 PM] 2025/06/11 19:01:31 go/packages.Load #23
+	view_id="23"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=206.146537ms
+
+[Error - 7:01:31 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 7:02:01 PM] 2025/06/11 19:02:01 background imports cache refresh starting
+
+[Info  - 7:02:01 PM] 2025/06/11 19:02:01 background refresh finished after 46.428176ms
+
+[Info  - 7:02:26 PM] 2025/06/11 19:02:26 Created View (#24)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 7:02:26 PM] 2025/06/11 19:02:26 go/packages.Load #24
+	view_id="24"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=188.90785ms
+
+[Error - 7:02:26 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 7:02:56 PM] 2025/06/11 19:02:56 background imports cache refresh starting
+
+[Info  - 7:02:56 PM] 2025/06/11 19:02:56 background refresh finished after 53.025635ms
+
+[Info  - 8:54:32 PM] 2025/06/11 20:54:32 Shutdown session
+	shutdown_session=1
+

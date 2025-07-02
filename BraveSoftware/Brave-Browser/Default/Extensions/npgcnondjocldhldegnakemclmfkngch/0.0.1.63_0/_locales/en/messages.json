@@ -1,0 +1,143 @@
+{
+   "AllowExtensionToRunInPrivateWindows": {
+      "message": "For the extension to work it is required to allow it to run in private windows, see \u003Ca href='https://github.com/anticensority/runet-censorship-bypass/wiki/Как-разрешить-запуск-расширения-в-приватных-окнах-|-How-to-allow-extension-to-run-in-private-windows'>a HOWTO\u003C/a>."
+   },
+   "Anticensority": {
+      "message": "Anticensority"
+   },
+   "Antizapret": {
+      "message": "Antizapret"
+   },
+   "ChoosePacProviderFirstD": {
+      "message": "Choose PAC-provider first."
+   },
+   "Disable": {
+      "message": "Disable"
+   },
+   "DisabledD": {
+      "message": "Disabled."
+   },
+   "DisablingDDD": {
+      "message": "Disabling..."
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "Error": {
+      "message": "Error"
+   },
+   "Exceptions": {
+      "message": "Exceptions"
+   },
+   "FailedToDownloadPacScriptFromAddresses": {
+      "message": "Failed to download PAC-script from addresses"
+   },
+   "Finish": {
+      "message": "OK"
+   },
+   "FullVersion": {
+      "message": "Full version"
+   },
+   "InstallingDDD": {
+      "message": "Installing..."
+   },
+   "Modifiers": {
+      "message": "Modifiers"
+   },
+   "Non_critical_error": {
+      "message": "Non-critical error. Don't worry: it works"
+   },
+   "Notifications": {
+      "message": "Notifications"
+   },
+   "Only_own_sites_and_only_own_proxies": {
+      "message": "Only own sites and only own proxies"
+   },
+   "Own_proxies": {
+      "message": "Own proxies"
+   },
+   "PAC_script": {
+      "message": "PAC-script"
+   },
+   "PacScriptWasInstalledD": {
+      "message": "PAC-script was installed."
+   },
+   "ProblemsQ": {
+      "message": "Problems?"
+   },
+   "ProxyTheDomainNameBelowQ": {
+      "message": "Proxy the domain name below?"
+   },
+   "Updated": {
+      "message": "Updated"
+   },
+   "UpdatedD": {
+      "message": "Updated."
+   },
+   "UpdatingDDD": {
+      "message": "Updating..."
+   },
+   "Version": {
+      "message": "Version"
+   },
+   "VersionForSlowMachines": {
+      "message": "Version for slow machines"
+   },
+   "WhichQ": {
+      "message": "Which?"
+   },
+   "ago": {
+      "message": "ago"
+   },
+   "auto": {
+      "message": "auto"
+   },
+   "d": {
+      "message": "d"
+   },
+   "extDesc": {
+      "message": "Circumvent Russian Internet Censorship: https://git.io/ac-wiki"
+   },
+   "extName": {
+      "message": "Runet Censorship Bypass"
+   },
+   "h": {
+      "message": "h"
+   },
+   "m": {
+      "message": "m"
+   },
+   "min": {
+      "message": "min"
+   },
+   "ms": {
+      "message": "ms"
+   },
+   "never": {
+      "message": "never"
+   },
+   "no": {
+      "message": "no"
+   },
+   "noControl": {
+      "message": "Other extension controls proxy!"
+   },
+   "noOwnProxiesError": {
+      "message": "Proxying of OWN sites is possible only via OWN proxies. No own proxies found that satisfy your requirements."
+   },
+   "proxy": {
+      "message": "proxy"
+   },
+   "s": {
+      "message": "s"
+   },
+   "update": {
+      "message": "update"
+   },
+   "w": {
+      "message": "w"
+   },
+   "yes": {
+      "message": "yes"
+   }
+}

@@ -1,0 +1,6 @@
+2025/06/15-19:09:57.912 523 Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.keybr.com_0.indexeddb.leveldb since it was missing.
+2025/06/15-19:09:57.916 523 Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.keybr.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/15-19:09:59.933 524 Level-0 table #5: started
+2025/06/15-19:09:59.934 524 Level-0 table #5: 793 bytes OK
+2025/06/15-19:09:59.936 524 Delete type=0 #3
+2025/06/15-19:09:59.937 524 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2025/06/08-18:15:26.548 3adb Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.ozon.ru_0.indexeddb.leveldb since it was missing.
+2025/06/08-18:15:26.561 3adb Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.ozon.ru_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/08-18:19:08.538 3adc Level-0 table #5: started
+2025/06/08-18:19:08.540 3adc Level-0 table #5: 45994 bytes OK
+2025/06/08-18:19:08.542 3adc Delete type=0 #3
+2025/06/08-18:19:08.543 3adc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

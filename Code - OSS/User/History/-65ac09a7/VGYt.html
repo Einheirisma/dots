@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сброс пароля</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Сброс пароля</h2>
+
+        <div id="step-1">
+            <label for="reset-token">Введите токен из письма:</label>
+            <input type="text" id="reset-token" placeholder="Код из письма">
+            <button id="verify-token-btn">Проверить токен</button>
+        </div>
+
+        <div id="step-2" style="display:none;">
+            <label for="new-password">Новый пароль:</label>
+            <input type="password" id="new-password" placeholder="Новый пароль">
+
+            <label for="confirm-password">Повторите пароль:</label>
+            <input type="password" id="confirm-password" placeholder="Повторите пароль">
+
+            <button id="reset-password-btn">Сменить пароль</button>
+        </div>
+    </div>
+
+    <script src="reset.js"></script>
+</body>
+</html>

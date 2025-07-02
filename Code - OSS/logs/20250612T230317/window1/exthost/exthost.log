@@ -1,0 +1,36 @@
+2025-06-12 23:03:20.602 [info] Extension host with pid 183422 started
+2025-06-12 23:03:20.602 [info] Skipping acquiring lock for /home/ame/.config/Code - OSS/User/workspaceStorage/d74d8c354d300f87939a00dfe2d407f9.
+2025-06-12 23:03:21.029 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-12 23:03:21.093 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-06-12 23:03:21.263 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-06-12 23:03:21.850 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-12 23:03:21.887 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-12 23:03:22.042 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-12 23:03:22.304 [info] Eager extensions activated
+2025-06-12 23:03:22.491 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 23:03:22.497 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 23:03:22.595 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-12 23:03:22.624 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 01:13:29.255 [error] [golang.go] provider FAILED
+2025-06-13 01:13:29.258 [error] Error: context canceled
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-13 01:14:00.407 [error] [golang.go] provider FAILED
+2025-06-13 01:14:00.407 [error] Error: context canceled
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-13 01:17:00.163 [error] [golang.go] provider FAILED
+2025-06-13 01:17:00.163 [error] Error: context canceled
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-13 01:58:31.124 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 01:58:31.157 [info] Extension host with pid 183422 exiting with code 0

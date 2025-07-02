@@ -1,0 +1,6 @@
+2025/06/26-02:19:29.842 873 Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_site.yummyani.me_0.indexeddb.leveldb since it was missing.
+2025/06/26-02:19:29.846 873 Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_site.yummyani.me_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/26-02:20:49.501 874 Level-0 table #5: started
+2025/06/26-02:20:49.504 874 Level-0 table #5: 11824 bytes OK
+2025/06/26-02:20:49.506 874 Delete type=0 #3
+2025/06/26-02:20:49.506 874 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

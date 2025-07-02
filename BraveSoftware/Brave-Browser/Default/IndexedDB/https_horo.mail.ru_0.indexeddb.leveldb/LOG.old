@@ -1,0 +1,24 @@
+2025/06/28-17:00:34.399 234e Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_horo.mail.ru_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/28-17:00:34.399 234e Recovering log #14
+2025/06/28-17:00:34.399 234e Reusing old log /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_horo.mail.ru_0.indexeddb.leveldb/000014.log 
+2025/06/28-17:00:34.414 234e Level-0 table #18: started
+2025/06/28-17:00:34.416 234e Level-0 table #18: 667 bytes OK
+2025/06/28-17:00:34.418 234e Delete type=0 #14
+2025/06/28-17:00:34.418 234e Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 67 : 1
+2025/06/28-17:00:34.419 234e Compacting 1@0 + 1@1 files
+2025/06/28-17:00:34.420 234e Generated table #19@0: 5 keys, 272 bytes
+2025/06/28-17:00:34.420 234e Compacted 1@0 + 1@1 files => 272 bytes
+2025/06/28-17:00:34.422 234e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/28-17:00:34.422 234e Delete type=2 #18
+2025/06/28-17:00:34.423 234e Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 67 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/28-17:00:36.103 234e Level-0 table #21: started
+2025/06/28-17:00:36.104 234e Level-0 table #21: 653 bytes OK
+2025/06/28-17:00:36.106 234e Delete type=0 #17
+2025/06/28-17:00:36.106 234e Delete type=2 #15
+2025/06/28-17:00:36.107 234e Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 86 : 1
+2025/06/28-17:00:36.107 234e Compacting 1@0 + 1@1 files
+2025/06/28-17:00:36.108 234e Generated table #22@0: 5 keys, 258 bytes
+2025/06/28-17:00:36.108 234e Compacted 1@0 + 1@1 files => 258 bytes
+2025/06/28-17:00:36.109 234e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/28-17:00:36.110 234e Delete type=2 #21
+2025/06/28-17:00:36.110 234e Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 86 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

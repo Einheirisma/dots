@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "DeepseekServerisBusy_128.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://chat.deepseek.com/*" ]
+   } ],
+   "description": "Automatically retries requests on DeepSeek when the server is busy. No manual action needed.",
+   "host_permissions": [ "https://chat.deepseek.com/*" ],
+   "icons": {
+      "128": "DeepseekServerisBusy_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2aWJWhxQEhoNEh939SnAjlytZK/SStcu5vxhFB8cS3odggR8W4nzplweEB1yTIzrs93rIFm5VJ08x4LXOIRoHwyDtij2EVWcZE3sxX8VU3UBsdUY78beOs2utwsGxX6/j5l3FObYyUSa9fH+yQSoaAy4NHAh1znZL64jZmqx121FD71raIQpw2/cOXiq4PyFKdU9cidMdUeC4yOfdVBBGxK/OnrIda8xfr2OtnjNsdKa2GhSLMppm29WXu7H1Tzzlq7VDVmULhah7gLvB0gTQ8wUuaKd4YFTS8OqfsLSRh0/axhy2jX64kYpE8kUwxqteVxHT5kKzRii8SWMi4ob3wIDAQAB",
+   "manifest_version": 3,
+   "name": "DeepSeek Server Busy",
+   "permissions": [ "scripting", "activeTab", "storage", "notifications", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.30",
+   "web_accessible_resources": [ {
+      "matches": [ "https://chat.deepseek.com/*" ],
+      "resources": [ "default.svg", "green.svg", "yellow.svg", "red.svg", "gray.svg", "turquoise.svg", "orange.svg", "newchat.svg", "welcome.html", "DeepseekServerisBusy_128.png" ]
+   } ]
+}

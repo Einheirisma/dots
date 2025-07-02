@@ -1,0 +1,6 @@
+2025/06/27-21:28:16.411 2c6 Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ranobelib.me_0.indexeddb.leveldb since it was missing.
+2025/06/27-21:28:16.416 2c6 Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ranobelib.me_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/27-21:28:18.430 2c7 Level-0 table #5: started
+2025/06/27-21:28:18.432 2c7 Level-0 table #5: 1009 bytes OK
+2025/06/27-21:28:18.434 2c7 Delete type=0 #3
+2025/06/27-21:28:18.434 2c7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

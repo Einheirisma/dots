@@ -1,0 +1,7 @@
+2025-06-13 04:56:40.650 [info] Started local extension host with pid 374842.
+2025-06-13 04:56:40.716 [info] ComputeTargetPlatform: linux-x64
+2025-06-13 04:56:44.347 [info] [perf] Render performance baseline is 400ms
+2025-06-13 04:56:44.461 [info] Auto updating outdated extensions. jdinhlife.gruvbox
+2025-06-13 04:56:50.627 [error] Signature verification failed with 'UnhandledException' error.: SignatureVerificationInternal: Signature verification failed with 'UnhandledException' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)

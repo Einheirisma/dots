@@ -1,0 +1,89 @@
+2025-06-14 18:18:23.791 [info] Extension host with pid 20693 started
+2025-06-14 18:18:23.791 [info] Skipping acquiring lock for /home/ame/.config/Code - OSS/User/workspaceStorage/d74d8c354d300f87939a00dfe2d407f9.
+2025-06-14 18:18:24.097 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-14 18:18:24.138 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-14 18:18:24.150 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-14 18:18:24.167 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-06-14 18:18:24.258 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-06-14 18:18:24.768 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-14 18:18:24.905 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-14 18:18:24.922 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-14 18:18:24.991 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-14 18:18:25.097 [info] Eager extensions activated
+2025-06-14 18:18:25.197 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-14 18:18:25.201 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-14 18:19:14.610 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-06-14 18:21:40.992 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-06-14 18:22:13.359 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-06-14 18:24:34.881 [error] [golang.go] provider FAILED
+2025-06-14 18:24:34.884 [error] Error: context canceled
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:25:32.743 [error] [golang.go] provider FAILED
+2025-06-14 18:25:32.743 [error] Error: can't find definitions for file type go.mod
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:27:55.956 [error] [golang.go] provider FAILED
+2025-06-14 18:27:55.956 [error] Error: can't find definitions for file type go.mod
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.513 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.513 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.530 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.530 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.544 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.544 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.560 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.560 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.593 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.593 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.633 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.634 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:05.668 [error] [golang.go] provider FAILED
+2025-06-14 18:28:05.668 [error] Error: can't find definitions for file type go.sum
+	at handleResponse (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8582:40)
+	at handleMessage (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/ame/.vscode-oss/extensions/golang.go-0.46.1-universal/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-06-14 18:28:19.049 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-14 18:28:19.113 [info] Extension host with pid 20693 exiting with code 0

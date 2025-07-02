@@ -1,0 +1,6 @@
+2025/06/17-23:30:51.795 2bd Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_m.vk.com_0.indexeddb.leveldb since it was missing.
+2025/06/17-23:30:51.799 2bd Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_m.vk.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/17-23:31:25.381 2be Level-0 table #5: started
+2025/06/17-23:31:25.383 2be Level-0 table #5: 2823 bytes OK
+2025/06/17-23:31:25.385 2be Delete type=0 #3
+2025/06/17-23:31:25.385 2be Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,135 @@
+{
+   "checksum": "9d10770a42ccb0c2fb2236bcb2a114e7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13389392827564837",
+            "date_last_used": "13395615442067557",
+            "guid": "0e76e721-26eb-41ce-addc-d9a75ff529b1",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ВКонтакте",
+            "type": "url",
+            "url": "https://vk.com/im"
+         }, {
+            "date_added": "13389480818944995",
+            "date_last_used": "13395617988166629",
+            "guid": "6e5710ac-3539-4c37-bc33-89df353d7d66",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13389392216526517",
+            "date_last_used": "13395617733891001",
+            "guid": "0c86be45-c2d0-4f8b-935c-6b58390d967c",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Twitch",
+            "type": "url",
+            "url": "http://twitch.tv/"
+         }, {
+            "date_added": "13389546104602815",
+            "date_last_used": "13395615256129713",
+            "guid": "b05f286f-ff19-4625-b926-1c9832220c3d",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Shikimori",
+            "type": "url",
+            "url": "https://shikimori.one/l;es"
+         }, {
+            "date_added": "13389399201422276",
+            "date_last_used": "13395932376607899",
+            "guid": "0e6ac8f1-277b-459e-8518-38ca8a834b4c",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/skillissu3e?tab=repositories"
+         }, {
+            "date_added": "13389488298148047",
+            "date_last_used": "13395527900497281",
+            "guid": "10cddb48-7249-4ec0-a065-19c7f5d72f70",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "osu!",
+            "type": "url",
+            "url": "https://osu.ppy.sh/users/13062703"
+         }, {
+            "date_added": "13394640118038651",
+            "date_last_used": "13395593095273031",
+            "guid": "85072ea2-17de-440b-926b-be9bb4f5a1d2",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/1/#inbox"
+         }, {
+            "date_added": "13395614008908329",
+            "date_last_used": "13395614676840010",
+            "guid": "bd9beb5f-a6ba-47de-8460-c2782a5a75e2",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Подземелье вкусностей читать мангу онлайн на русском языке | Desu.Me",
+            "type": "url",
+            "url": "https://desu.city/manga/dungeon-meshi.2168/"
+         }, {
+            "date_added": "13395614136469608",
+            "date_last_used": "13395614676566544",
+            "guid": "ceb93951-5d5d-4827-8773-104899df9560",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Евангелион нового поколения читать мангу онлайн на русском языке | Desu.Me",
+            "type": "url",
+            "url": "https://desu.city/manga/neon-genesis-evangelion.3430/"
+         } ],
+         "date_added": "13389391639099680",
+         "date_last_used": "0",
+         "date_modified": "13395614136469608",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13389391639099684",
+         "date_last_used": "0",
+         "date_modified": "13389628595897158",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13389391639099687",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

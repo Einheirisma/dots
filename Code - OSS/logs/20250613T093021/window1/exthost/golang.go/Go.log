@@ -1,0 +1,30 @@
+2025-06-13 09:30:25.506 [info] Try to start language server - activation (enabled: true)
+2025-06-13 09:30:25.613 [info] Running language server gopls(v0.18.1/go1.24.3)
+2025-06-13 09:30:29.738 [info] Running checks...
+2025-06-13 09:30:29.738 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:29.995 [info] Running checks...
+2025-06-13 09:30:29.995 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:30.057 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:30.057 [info] 
+2025-06-13 09:30:30.098 [info] Running checks...
+2025-06-13 09:30:30.098 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:30.112 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:30.112 [info] 
+2025-06-13 09:30:30.304 [info] Running checks...
+2025-06-13 09:30:30.305 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:30.361 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:30.361 [info] 
+2025-06-13 09:30:30.447 [info] Running checks...
+2025-06-13 09:30:30.447 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:30.499 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:30.499 [info] 
+2025-06-13 09:30:30.955 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:30.955 [info] 
+2025-06-13 09:30:38.448 [info] Running checks...
+2025-06-13 09:30:38.448 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:38.686 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:38.686 [info] 
+2025-06-13 09:30:38.903 [info] Running checks...
+2025-06-13 09:30:38.903 [info] Starting linting the current package at /home/ame/code/notify-platform/user-service/internal/handler
+2025-06-13 09:30:39.134 [info] /home/ame/code/notify-platform/user-service/internal/handler>Finished running tool: /home/ame/.local/share/go/bin/staticcheck
+2025-06-13 09:30:39.134 [info] 

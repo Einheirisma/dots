@@ -1,0 +1,190 @@
+### Autostart
+exec_always autotiling-rs
+
+### Variables
+# Logo key. Use Mod1 for Alt.
+set $Mod Mod4
+set $Left H
+set $Down J
+set $Up K
+set $Right L
+
+set $Terminal /usr/bin/ghostty
+set $Browser /usr/bin/brave
+set $ApplicationLauncher /usr/bin/anyrun
+set $FileManager nautilus
+set $Code code
+
+### Output configuration
+# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+# output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg #000000 solid_color
+output eDP-1 resolution 1920x1080 position 1920,0
+
+### Input configuration
+input * {
+    # Keyboard configuration
+    repeat_delay 450
+    repeat_rate 30
+    xkb_layout us,ru
+    xkb_options "grp:alt_shift_toggle, caps:escape"
+    xkb_capslock disabled
+    xkb_numlock enabled
+
+
+    # Libinput configuration
+    accel_profile adaptive
+    click_method none
+    clickfinger_button_map lrm
+    natural_scroll enabled
+    tap enabled
+    tap_button_map lrm
+}
+input type:pointer {
+    natural_scroll disabled
+}
+
+### Key bindings
+bindsym $Mod+T exec $Terminal
+bindsym $Mod+Shift+Return exec $Browser
+bindsym $Mod+D exec /usr/bin/Telegram
+bindsym $Mod+M exec /usr/bin/firefox
+bindsym $Mod+G exec $FileManager
+bindsym $Mod+X exec $ApplicationLauncher
+bindsym $Mod+Q kill
+
+# Drag floating windows by holding down $Mod and left mouse button.
+# Resize them with right mouse button + $Mod.
+# Despite the name, also works for non-floating windows.
+# Change normal to inverse to use left mouse button for resizing and right
+# mouse button for dragging.
+floating_modifier $Mod normal
+
+bindsym $Mod+Shift+R reload
+bindsym $Mod+Shift+E exec swaynag -t warning -m 'Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+# Moving around:
+bindsym $Mod+$Left focus left
+bindsym $Mod+$Down focus down
+bindsym $Mod+$Up focus up
+bindsym $Mod+$Right focus right
+bindsym $Mod+Left focus left
+bindsym $Mod+Down focus down
+bindsym $Mod+Up focus up
+bindsym $Mod+Right focus right
+
+# Move the focused window
+bindsym $Mod+Shift+$Left move left
+bindsym $Mod+Shift+$Down move down
+bindsym $Mod+Shift+$Up move up
+bindsym $Mod+Shift+$Right move right
+bindsym $Mod+Shift+Left move left
+bindsym $Mod+Shift+Down move down
+bindsym $Mod+Shift+Up move up
+bindsym $Mod+Shift+Right move right
+
+# Workspaces:
+# Switch to workspace
+bindsym $Mod+1 workspace number 1
+bindsym $Mod+2 workspace number 2
+bindsym $Mod+3 workspace number 3
+bindsym $Mod+4 workspace number 4
+bindsym $Mod+5 workspace number 5
+bindsym $Mod+6 workspace number 6
+bindsym $Mod+7 workspace number 7
+bindsym $Mod+8 workspace number 8
+bindsym $Mod+9 workspace number 9
+bindsym $Mod+0 workspace number 10
+# Move focused container to workspace
+bindsym $Mod+Shift+1 move container to workspace number 1
+bindsym $Mod+Shift+2 move container to workspace number 2
+bindsym $Mod+Shift+3 move container to workspace number 3
+bindsym $Mod+Shift+4 move container to workspace number 4
+bindsym $Mod+Shift+5 move container to workspace number 5
+bindsym $Mod+Shift+6 move container to workspace number 6
+bindsym $Mod+Shift+7 move container to workspace number 7
+bindsym $Mod+Shift+8 move container to workspace number 8
+bindsym $Mod+Shift+9 move container to workspace number 9
+bindsym $Mod+Shift+0 move container to workspace number 10
+
+# Layout stuff:
+bindsym $Mod+B splith
+bindsym $Mod+V splitv
+
+# Switch the current container between different layout styles
+bindsym $Mod+S layout stacking
+bindsym $Mod+W layout tabbed
+bindsym $Mod+E layout toggle split
+
+# Make the current focus fullscreen
+bindsym $Mod+F fullscreen
+
+# Toggle the current focus between tiling and floating mode
+bindsym $Mod+Shift+Space floating toggle
+
+# Swap focus between the tiling area and the floating area
+bindsym $Mod+Space focus mode_toggle
+
+# Move focus to the parent container
+bindsym $Mod+A focus parent
+#
+# Scratchpad:
+#
+# Sway has a "scratchpad", which is a bag of holding for windows.
+# You can send windows there and get them back later.
+
+# Move the currently focused window to the scratchpad
+bindsym $Mod+Shift+Minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+bindsym $Mod+Minus scratchpad show
+#
+# Resizing containers:
+#
+mode "resize" {
+    bindsym $Left resize shrink width 10px
+    bindsym $Down resize grow height 10px
+    bindsym $Up resize shrink height 10px
+    bindsym $Right resize grow width 10px
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $Mod+R mode "resize"
+
+# Utilities:
+# Adjust volume via Alsa
+bindsym --locked XF86AudioMute exec amixer set Master toggle
+bindsym --locked XF86AudioLowerVolume exec amixer set Master 2%-
+bindsym --locked XF86AudioRaiseVolume exec amixer set Master 2%+
+# Adjust brightness via brightnessctl
+bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+# Take a screenshot with ***
+bindsym Print exec grim -g "$(slurp)" - | wl-copy
+
+# Status Bar
+bar {
+    font pango:Google Sans, Font Awesome 11
+    position top
+    status_command /usr/bin/i3status-rs "$XDG_CONFIG_HOME/i3status-rs/config.toml"
+
+    colors {
+        statusline #FFFFFF
+        background #000000
+        #colorclass         <border> <background> <text>
+        focused_workspace   #407fdd    #407fdd    #FFFFFF
+        active_workspace    #0c0c0c    #000000    #FFFFFF
+        inactive_workspace  #000000    #000000    #FFFFFF
+        urgent_workspace    #FF0000    #FF0000    #FFFFFF
+    }
+}
+
+# Get out of borders
+for_window [class="^.*"] border pixel 2
+include /etc/sway/config.d/*

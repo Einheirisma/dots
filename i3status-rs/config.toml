@@ -1,0 +1,34 @@
+icons_format = '{icon}'
+
+[theme]
+theme = 'native'
+
+[icons]
+icons = 'awesome6'
+
+[[block]]
+block = 'keyboard_layout'
+driver = 'sway'
+[block.mappings]
+'English (US)' = 'US'
+'Russian (N/A)' = 'RU'
+
+[[block]]
+block = 'battery'
+format = '$icon $percentage'
+full_format = ' $icon $percentage '
+
+[[block]]
+block = 'sound'
+driver = 'alsa'
+show_volume_when_muted = true
+headphones_indicator = true
+format = " $icon {$volume.eng(w:2) |}"
+[[block.click]]
+button = 'left'
+cmd = 'amixer set Master toggle'
+
+[[block]]
+block = 'time'
+interval = 5
+format = " $timestamp.datetime(f:'%a %d/%m %R')"

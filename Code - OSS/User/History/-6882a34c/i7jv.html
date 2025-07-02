@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель управления | Notify Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Notify Platform</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link active" data-page="send">Отправить</a></li>
+                    <li><a href="#" class="nav-link" data-page="history">История</a></li>
+                    <li><a href="#" class="nav-link" data-page="stats">Статистика</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <span id="user-email"></span>
+            <button id="logout-btn" class="btn secondary">Выйти</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Страница отправки уведомлений -->
+        <div id="send-page" class="page active">
+            <h2>Отправка уведомления</h2>
+            <div class="form-container">
+                <div class="form-group">
+                    <label>Канал доставки</label>
+                    <div class="channel-selector">
+                        <button class="channel-btn active" data-channel="email">Email</button>
+                        <button class="channel-btn" data-channel="telegram">Telegram</button>
+                        <button class="channel-btn" data-channel="whatsapp">WhatsApp</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="recipient">Получатель</label>
+                    <input type="text" id="recipient" placeholder="Введите адрес получателя">
+                    <div class="hint" id="recipient-hint">
+                        Для email: user@example.com<br>
+                        Для Telegram: ID чата (например: 123456789)<br>
+                        Для WhatsApp: номер телефона (например: 79150000000)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Тема</label>
+                    <input type="text" id="subject" placeholder="Тема сообщения">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" rows="5" placeholder="Текст вашего сообщения"></textarea>
+                </div>
+
+                <button id="send-btn" class="btn">Отправить уведомление</button>
+            </div>
+        </div>
+
+        <!-- Страница истории уведомлений -->
+        <div id="history-page" class="page">
+            <h2>История уведомлений</h2>
+            <div class="controls">
+                <div class="form-group">
+                    <label for="history-limit">Показать последние:</label>
+                    <select id="history-limit">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="history-channel">Канал:</label>
+                    <select id="history-channel">
+                        <option value="all">Все</option>
+                        <option value="email">Email</option>
+                        <option value="telegram">Telegram</option>
+                        <option value="whatsapp">WhatsApp</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table-container">
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>Дата</th>
+                            <th>Канал</th>
+                            <th>Получатель</th>
+                            <th>Тема</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Страница статистики -->
+        <div id="stats-page" class="page">
+            <h2>Статистика уведомлений</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-notifications">0</div>
+                    <div class="stat-label">Всего отправлено</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="success-rate">0%</div>
+                    <div class="stat-label">Успешных доставок</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="email-count">0</div>
+                    <div class="stat-label">Email отправок</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="telegram-count">0</div>
+                    <div class="stat-label">Telegram отправок</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="whatsapp-count">0</div>
+                    <div class="stat-label">WhatsApp отправок</div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Распределение по каналам</h3>
+                <canvas id="channel-chart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Статусы доставки</h3>
+                <canvas id="status-chart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <div id="notification" class="notification hidden"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

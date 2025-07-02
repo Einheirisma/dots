@@ -1,0 +1,15 @@
+2025-06-14 15:42:22.476 [info] Started local extension host with pid 14043.
+2025-06-14 15:42:22.529 [info] ComputeTargetPlatform: linux-x64
+2025-06-14 15:42:26.938 [info] [perf] Render performance baseline is 317ms
+2025-06-14 15:42:27.151 [info] Auto updating outdated extensions. jdinhlife.gruvbox
+2025-06-14 15:42:35.135 [error] Signature verification failed with 'UnhandledException' error.: SignatureVerificationInternal: Signature verification failed with 'UnhandledException' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)
+2025-06-14 18:13:29.536 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-14 18:14:06.139 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

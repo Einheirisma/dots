@@ -1,0 +1,228 @@
+su -
+usermod -a -G wheel USERNAME
+nvim /etc/sudoers
+#####
+## Uncomment to allow members of group wheel to execute any command
+#%wheel ALL=(ALL:ALL) ALL
+#####
+exit
+nmtui
+reboot
+mkdir -p ~/.config/bash
+mv ~/.bash_profile ~/.bashrc ~/.config/bash
+rm ~/.bash_logout
+sudo nvim /etc/bash.bashrc
+#####
+if [ -d /etc/bash/bashrc.d/ ]; then
+    for f in /etc/bash/bashrc.d/*.sh; do
+        [ -r "$f" ] && . "$f"
+    done
+    unset f
+fi
+
+if [ -s "${XDG_CONFIG_HOME:-$HOME/.config}/bash/.bash_profile" ]; then
+    . "${XDG_CONFIG_HOME:-$HOME/.config}/bash/.bash_profile"
+fi
+#####
+nvim ~/.config/bash/.bashrc
+#####
+# Add this lines at the top of .bashrc:
+[[ $- == *i* ]] && source /path/to/blesh/ble.sh --noattach
+# Default programs
+export EDITOR="nvim"
+export VISUAL="nvim"
+export VIDEOPLAYER="mpv"
+export TERMINAL="ghostty"
+export IMAGEVIEWER="swayimg"
+export BROWSER="brave"
+
+# Follow XDG base dir specification
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+# History files
+export HISTFILE="$XDG_CACHE_HOME/bash/bash_history"
+export LESSHISTFILE="$XDG_CACHE_HOME/less/less_history"
+export PYTHON_HISTORY="$XDG_DATA_HOME/python/python_history"
+
+# Moving other files and some other vars
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
+export GOPATH="$XDG_DATA_HOME/go"
+export GOBIN="$GOPATH/bin"
+export GOMODCACHE="$XDG_CACHE_HOME/go/mod"
+export NPM_CONFIG_PREFIX="$XDG_DATA_HOME/npm"
+export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export DATE=$(date "+%-d %B %Y, %A, %T")
+export MANPAGER="nvim +Man!"
+
+export FZF_DEFAULT_OPTS="--style full --color 16 --layout=reverse --height 30% --preview='bat -p --color=always {}'"
+export FZF_CTRL_R_OPTS="--style full --color 16 --layout=reverse --height 30% --no-preview"
+
+# Important
+export XDG_CURRENT_DESKTOP=niri
+export XDG_SESSION_DESKTOP=niri
+export XDG_SESSION_TYPE=wayland
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
+export SDL_VIDEODRIVER=wayland
+export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_SCALE_FACTOR=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export GDK_SCALE=1
+export GDK_BACKEND="wayland,x11,*"
+export GDK_USE_PORTAL=1
+export WLR_NO_HARDWARE_CURSORS=1
+export _JAVA_AWT_WM_NONREPARENTING=1
+# Add this line at the end of .bashrc:
+[[ ! ${BLE_VERSION-} ]] || ble-attach
+#####
+source ~/.config/bash/.bashrc
+sudo nvim /etc/pacman.conf
+#####
+Color
+ILoveCandy
+CheckSpace
+VerbosePkgLists
+ParallelDownloads = 10
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+#####
+sudo pacman -Syyu
+sudo pacman -S reflector
+sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo pacman -S rustup go npm
+go telemetry off
+rm -rf ~/.config/go
+rustup default stable
+sudo pacman -S
+fd
+jq
+bat
+fzf
+git
+tar
+zip
+eza
+ntp
+mpv
+btop
+base
+curl
+wget
+mesa
+rsync
+p7zip
+unzip
+docker
+man-db
+go-yq
+tmux
+openssh
+ghostty
+wlroots
+swayimg
+swaybg
+linux-lts
+alsa-lib
+man-pages
+parallel
+ripgrep-all
+xdg-utils
+net-tools
+base-devel
+alsa-tools
+alsa-utils
+lib32-mesa
+mesa-vdpau
+noto-fonts
+imagemagick
+libva-utils
+brightnessctl
+xorg-xwayland
+vulkan-radeon
+i3status-rust
+autotiling-rs
+linux-firmware
+docker-compose
+pacman-contrib
+noto-fonts-cjk
+lib32-libvdpau
+linux-lts-headers
+ttf-font-awesome
+noto-fonts-emoji
+vulkan-icd-loader
+libva-mesa-driver
+lib32-mesa-vdpau
+archlinux-keyring
+xf86-video-amdgpu
+lib32-vulkan-radeon
+xdg-desktop-portal-wlr
+lib32-vulkan-icd-loader
+lib32-libva-mesa-driver
+
+sudo systemctl enable alsa
+sudo systemctl enable ntpd
+sudo pacman -Runs pulseaudio pulseaudio-alsa
+systemctl --user --now stop pulseaudio.service pulseaudio.socket
+systemctl --user --now disable pulseaudio.service pulseaudio.socket
+systemctl --user --now stop pipewire-pulse.socket
+systemctl --user --now disable pipewire-pulse.socket
+systemctl --user --now stop pipewire-pulse.service
+systemctl --user --now disable pipewire-pulse.service
+sudo mkdir /etc/pacman.d/hooks
+sudo nvim /etc/pacman.d/hooks/paccache.hook
+#####
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning pacman cache...
+When = PostTransaction
+Exec = /usr/bin/paccache -rk 2
+#####
+git clone https://aur.archlinux.org/paru.git ~/.paru
+cd .paru
+makepkg -rsi
+cd .. && rm -rf ~/.paru
+paru -S brave-bin wl-clipboard-rs libva-vdpau-driver-wayland mawk blesh
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+systemctl status fstrim.timer
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo nvim /etc/xdg/user-dirs.conf
+#####
+enabled=False
+#####
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+ssh -T git@github.com
+# Они хранятся в /etc/gitconfig
+sudo git config --system user.name "Your Name"
+sudo git config --system user.email "your.email@example.com"
+nvim ~/.config/bash/.bashrc
+#####
+
+source ~/.config/bash/.bashrc
+
+
+
+
+
+
+
+
+
+
+
+https://www.reddit.com/r/archlinux/comments/18xdnlx/how_can_i_stop_xdguserdirs_from_running_every/

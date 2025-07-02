@@ -1,0 +1,42 @@
+# Базы данных
+MYSQL_ROOT_PASSWORD=secret
+MYSQL_DATABASE=notify
+MYSQL_USER=app
+MYSQL_PASSWORD=app_password
+MYSQL_HOST=mysql
+MYSQL_PORT=3306
+MYSQL_DSN=app:app_password@tcp(mysql:3306)/notify?parseTime=true
+
+REDIS_HOST=redis
+REDIS_PORT=6379
+
+# JWT
+JWT_SECRET=your_jwt_secret_here
+JWT_EXPIRATION=24h
+JWT_ISSUER=notify-platform
+
+# RabbitMQ
+RABBITMQ_HOST=rabbitmq
+RABBITMQ_USER=guest
+RABBITMQ_PASSWORD=guest
+
+# SMTP (Yandex)
+SMTP_HOST=smtp.yandex.ru
+SMTP_PORT=465
+SMTP_USER=******@yandex.ru
+SMTP_PASSWORD=******
+
+# Telegram
+TELEGRAM_BOT_TOKEN=******
+
+# WhatsApp(Green-API)
+GREEN_API_INSTANCE=******
+GREEN_API_TOKEN=******
+
+# Prometheus
+PROMETHEUS_ENABLED=true
+PROMETHEUS_PORT=9090
+
+# HTTPS settings
+TLS_CERT_FILE=/app/certs/cert.pem
+TLS_KEY_FILE=/app/certs/key.pem

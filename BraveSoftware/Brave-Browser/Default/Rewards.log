@@ -1,0 +1,352 @@
+--------------------------------------------------------------------------------
+[Apr 30, 2025 11:46:28.4 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[Apr 30, 2025 11:46:28.4 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[Apr 30, 2025 11:46:28.4 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 7:19:59.5 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 7:19:59.5 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 7:19:59.5 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 7:35:56.4 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 7:35:56.4 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 7:35:56.4 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 9:29:43.4 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 9:29:43.4 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 9:29:43.4 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 10:31:07.6 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 10:31:07.6 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 10:31:07.6 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 11:09:56.8 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 11:09:56.8 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 11:09:56.8 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 05, 2025 1:21:20.2 PM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 05, 2025 1:21:20.2 PM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 05, 2025 1:21:20.2 PM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 07, 2025 7:15:22.6 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 07, 2025 7:15:22.6 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 07, 2025 7:15:22.6 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[Jun 06, 2025 3:20:40.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 3:20:40.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 06, 2025 3:20:40.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 3:20:40.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 3:44:59.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 3:44:59.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 3:51:02.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 3:51:02.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 4:50:38.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 4:50:38.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 6:03:37.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 6:03:37.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 6:26:57.6 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 6:26:57.6 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 7:39:31.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 7:39:31.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 8:01:23.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 8:01:23.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 9:11:50.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 9:11:50.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 9:55:00.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 9:55:00.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 06, 2025 10:05:04.6 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 06, 2025 10:05:04.6 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 6:17:38.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:17:38.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 07, 2025 6:17:38.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:17:38.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 6:20:38.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:20:38.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 6:35:30.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:35:30.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 6:38:31.3 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:38:31.3 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 6:40:55.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:40:55.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 6:53:42.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 6:53:42.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 7:00:34.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 7:00:34.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 07, 2025 7:03:37.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 07, 2025 7:03:37.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 08, 2025 2:20:07.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 08, 2025 2:20:07.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 08, 2025 2:35:03.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 08, 2025 2:35:03.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 08, 2025 2:35:03.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 08, 2025 2:35:03.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 09, 2025 8:14:46.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 09, 2025 8:14:46.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 09, 2025 8:15:50.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 09, 2025 8:15:50.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 09, 2025 12:33:51.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 09, 2025 12:33:51.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 09, 2025 3:44:44.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 09, 2025 3:44:44.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 09, 2025 10:01:13.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 09, 2025 10:01:13.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 12:21:08.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 12:21:08.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 10, 2025 3:21:06.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 3:21:06.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 9:21:57.1 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 9:21:57.1 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 10:52:41.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 10:52:41.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 3:07:42.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 3:07:42.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 3:10:07.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 3:10:07.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 6:23:40.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 6:23:40.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 6:44:08.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 6:44:08.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 8:06:27.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 8:06:27.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 8:46:53.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 8:46:53.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 8:59:42.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 8:59:42.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 9:16:21.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 9:16:21.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 11:05:37.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 11:05:37.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 10, 2025 11:28:31.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 10, 2025 11:28:31.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 11, 2025 12:24:03.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 11, 2025 12:24:03.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 11, 2025 8:50:45.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 11, 2025 8:50:45.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 11, 2025 5:59:02.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 11, 2025 5:59:02.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 11, 2025 6:03:39.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 11, 2025 6:03:39.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 12, 2025 1:45:32.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 12, 2025 1:45:32.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 12, 2025 2:08:29.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 12, 2025 2:08:29.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 12, 2025 2:13:19.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 12, 2025 2:13:19.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 12, 2025 4:13:16.6 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 12, 2025 4:13:16.6 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 13, 2025 5:10:08.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 13, 2025 5:10:08.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 13, 2025 7:23:26.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 13, 2025 7:23:26.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 14, 2025 10:05:18.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 14, 2025 10:05:18.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 14, 2025 9:09:02.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 14, 2025 9:09:02.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 15, 2025 10:22:55.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 15, 2025 10:22:55.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 15, 2025 1:42:46.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 15, 2025 1:42:46.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 15, 2025 3:22:03.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 15, 2025 3:22:03.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 15, 2025 10:02:27.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 15, 2025 10:02:27.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 16, 2025 10:10:47.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 16, 2025 10:10:47.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 16, 2025 11:55:45.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 16, 2025 11:55:45.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 16, 2025 3:24:24.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 16, 2025 3:24:24.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 16, 2025 3:30:12.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 16, 2025 3:30:12.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 16, 2025 9:26:45.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 16, 2025 9:26:45.0 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 17, 2025 12:32:44.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 17, 2025 12:32:44.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 17, 2025 12:32:45.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 17, 2025 12:32:45.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 18, 2025 10:22:27.0 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 18, 2025 10:22:27.0 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 18, 2025 10:22:27.0 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 18, 2025 10:22:27.0 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 18, 2025 7:09:17.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 18, 2025 7:09:17.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 19, 2025 10:55:18.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 19, 2025 10:55:18.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 19, 2025 10:56:22.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 19, 2025 10:56:22.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 19, 2025 7:42:12.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 19, 2025 7:42:12.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 20, 2025 11:07:11.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 20, 2025 11:07:11.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 20, 2025 11:07:11.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 20, 2025 11:07:11.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 20, 2025 4:45:01.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 20, 2025 4:45:01.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 20, 2025 6:24:53.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 20, 2025 6:24:53.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 20, 2025 7:12:16.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 20, 2025 7:12:16.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 21, 2025 11:30:29.0 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 21, 2025 11:30:29.0 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 21, 2025 11:35:02.1 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 21, 2025 11:35:02.1 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 21, 2025 11:35:02.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 21, 2025 11:35:02.2 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 21, 2025 7:49:36.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 21, 2025 7:49:36.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 22, 2025 9:40:34.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 22, 2025 9:40:34.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 22, 2025 9:40:34.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 22, 2025 9:40:34.7 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 22, 2025 10:39:38.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 22, 2025 10:39:38.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 22, 2025 10:55:08.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 22, 2025 10:55:08.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 22, 2025 10:58:32.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 22, 2025 10:58:32.8 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 22, 2025 11:00:19.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 22, 2025 11:00:19.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 23, 2025 7:23:21.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 23, 2025 7:23:21.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 23, 2025 7:23:21.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 23, 2025 7:23:21.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 23, 2025 11:54:45.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 23, 2025 11:54:45.9 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 23, 2025 6:40:35.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 23, 2025 6:40:35.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 24, 2025 9:21:57.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 24, 2025 9:21:57.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 24, 2025 9:21:57.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 24, 2025 9:21:57.5 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 24, 2025 7:16:22.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 24, 2025 7:16:22.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 25, 2025 4:16:22.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 25, 2025 4:16:22.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 25, 2025 12:45:08.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 25, 2025 12:45:08.4 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 25, 2025 6:15:43.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 25, 2025 6:15:43.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 26, 2025 12:02:10.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 26, 2025 12:02:10.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 26, 2025 12:02:10.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 26, 2025 12:02:10.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 26, 2025 4:41:39.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 26, 2025 4:41:39.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 27, 2025 10:47:12.1 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 27, 2025 10:47:12.1 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+[Jun 27, 2025 10:47:12.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(114)] Successfully saved creative new tab page ads
+[Jun 27, 2025 10:47:12.4 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(101)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 27, 2025 3:06:08.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 27, 2025 3:06:08.3 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 27, 2025 6:09:14.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 27, 2025 6:09:14.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 27, 2025 8:27:33.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 27, 2025 8:27:33.9 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 27, 2025 10:23:43.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 27, 2025 10:23:43.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 27, 2025 10:31:01.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 27, 2025 10:31:01.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+[Jun 28, 2025 11:18:28.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 28, 2025 11:18:28.8 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 28, 2025 11:45:20.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 28, 2025 11:45:20.6 AM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jun 28, 2025 6:43:05.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jun 28, 2025 6:43:05.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jul 02, 2025 12:19:36.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jul 02, 2025 12:19:36.7 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+[Jul 02, 2025 12:19:37.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jul 02, 2025 12:19:37.1 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jul 02, 2025 12:26:18.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jul 02, 2025 12:26:18.2 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions
+--------------------------------------------------------------------------------
+[Jul 02, 2025 12:35:20.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(123)] Successfully saved creative new tab page ads
+[Jul 02, 2025 12:35:20.5 PM GMT:ERROR:creative_new_tab_page_ads_util.cc(108)] Successfully saved creative set conversions

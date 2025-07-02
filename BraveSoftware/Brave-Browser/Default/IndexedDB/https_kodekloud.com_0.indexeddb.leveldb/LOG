@@ -1,0 +1,14 @@
+2025/06/17-15:32:56.797 2ee Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_kodekloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/17-15:32:56.798 2ee Recovering log #8
+2025/06/17-15:32:56.798 2ee Reusing old log /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_kodekloud.com_0.indexeddb.leveldb/000008.log 
+2025/06/17-15:32:56.798 2ee Delete type=2 #7
+2025/06/17-15:32:56.878 2f0 Level-0 table #13: started
+2025/06/17-15:32:56.881 2f0 Level-0 table #13: 941 bytes OK
+2025/06/17-15:32:56.883 2f0 Delete type=0 #8
+2025/06/17-15:32:56.883 2bf Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 198 : 1
+2025/06/17-15:32:56.883 2bf Compacting 1@0 + 1@1 files
+2025/06/17-15:32:56.886 2bf Generated table #14@0: 61 keys, 1506 bytes
+2025/06/17-15:32:56.886 2bf Compacted 1@0 + 1@1 files => 1506 bytes
+2025/06/17-15:32:56.888 2bf compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/17-15:32:56.889 2bf Delete type=2 #13
+2025/06/17-15:32:56.889 2bf Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 198 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

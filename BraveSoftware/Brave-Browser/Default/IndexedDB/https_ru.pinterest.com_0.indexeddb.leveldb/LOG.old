@@ -1,0 +1,10 @@
+2025/06/28-01:10:00.698 299 Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ru.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/28-01:10:00.699 299 Recovering log #9
+2025/06/28-01:10:00.699 299 Reusing old log /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ru.pinterest.com_0.indexeddb.leveldb/000009.log 
+2025/06/28-01:12:32.816 29b Level-0 table #14: started
+2025/06/28-01:12:32.880 29b Level-0 table #14: 1666074 bytes OK
+2025/06/28-01:12:32.885 29b Delete type=0 #9
+2025/06/28-01:12:32.922 29b Compacting 1@1 + 1@2 files
+2025/06/28-01:12:32.947 29b Generated table #15@1: 65 keys, 9907 bytes
+2025/06/28-01:12:32.947 29b Compacted 1@1 + 1@2 files => 9907 bytes
+2025/06/28-01:12:32.949 29b compacted to: files[ 0 0 1 0 0 0 0 ]

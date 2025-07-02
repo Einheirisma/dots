@@ -1,0 +1,31 @@
+{
+   "author": "anticensority+owners@googlegroups.com",
+   "background": {
+      "scripts": [ "00-init-apis.js", "11-error-handlers-api.js", "12-errors-lib.js", "13-http-lib.js", "15-firefox-proxy-settings.js", "20-ip-to-host-api.js", "35-pac-kitchen-api.js", "37-sync-pac-script-with-pac-provider-api.js", "80-error-menu.js", "83-last-errors.js", "85-block-informer.js", "70-menu-items.js", "75-context-menus.js" ]
+   },
+   "browser_action": {
+      "default_popup": "/pages/options/index.html",
+      "default_title": "Этот сайт благословлён | Версия 1.63"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "strict_min_version": "91.1.0"
+      }
+   },
+   "default_locale": "ru",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "icons/default-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq9AO4on3s1nvHtVFOUDuU/7/am71GSwipakf4gdLn1vCi2PTZYf1c5/vZ/SJYzabJiepkAKUZ7IHkj030bNa+Hxyyc3rFpc5Sg2aX0QvzSfoWj8B/cC5BJ3Y8UomD0Q69igOx2VG3lIwK5EfphXemktyiylbAiQWidb6rAlrdbUjXn5G93gzREuFwv7l2uNbYI+J8ajMdUjmAF9s2h9prxHdOLy/X2W+RVoG8UsZW3i0u47C1rzta5Qa+IazwCTFLO9adJzCiLT/oQVQSZx6ThhsiUuzFfPwak3NWROKs/Zao3HHI2ZYjawJc6mkiU9bvw8CXzfL2vDC48SbzO2jSwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55.0.0.0",
+   "name": "__MSG_extName__",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "/pages/options/index.html"
+   },
+   "permissions": [ "proxy", "alarms", "storage", "unlimitedStorage", "\u003Call_urls>", "tabs", "contextMenus", "notifications", "webRequest", "webRequestBlocking", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1.63"
+}

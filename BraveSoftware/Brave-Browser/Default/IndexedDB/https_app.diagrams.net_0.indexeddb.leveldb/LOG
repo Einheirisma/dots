@@ -1,0 +1,6 @@
+2025/06/12-23:15:57.330 2cc Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb since it was missing.
+2025/06/12-23:15:57.335 2cc Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/13-02:58:31.980 2cd Level-0 table #5: started
+2025/06/13-02:58:31.993 2cd Level-0 table #5: 763684 bytes OK
+2025/06/13-02:58:31.997 2cd Delete type=0 #3
+2025/06/13-02:58:31.997 2cd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

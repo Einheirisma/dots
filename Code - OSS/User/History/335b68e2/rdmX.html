@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аутентификация | Notify Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Notify Platform</h1>
+    </header>
+    <main>
+        <div class="auth-container">
+            <div class="auth-tabs" id="auth-tabs">
+                <button class="tab active" data-tab="login">Вход</button>
+                <button class="tab" data-tab="register">Регистрация</button>
+                <button class="tab" data-tab="reset">Восстановление</button>
+            </div>
+
+            <!-- Форма входа -->
+            <div id="login-form" class="auth-form active">
+                <h2>Вход в систему</h2>
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Пароль</label>
+                    <input type="password" id="login-password" placeholder="••••••••">
+                </div>
+                <button id="login-btn" class="btn">Войти</button>
+                <p class="auth-link" data-show="reset">Забыли пароль?</p>
+            </div>
+
+            <!-- Форма регистрации -->
+            <div id="register-form" class="auth-form">
+                <h2>Регистрация</h2>
+                <div class="form-group">
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Пароль</label>
+                    <input type="password" id="register-password" placeholder="••••••••">
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm">Подтверждение пароля</label>
+                    <input type="password" id="register-confirm" placeholder="••••••••">
+                </div>
+                <button id="register-btn" class="btn">Зарегистрироваться</button>
+                <p class="auth-info">После регистрации вам будет отправлено письмо с подтверждением</p>
+            </div>
+
+            <!-- Запрос сброса пароля -->
+            <div id="reset-form" class="auth-form">
+                <h2>Восстановление пароля</h2>
+                <div class="form-group">
+                    <label for="reset-email">Email</label>
+                    <input type="email" id="reset-email" placeholder="your@email.com">
+                </div>
+                <button id="reset-btn" class="btn">Отправить инструкции</button>
+                <p class="auth-info">На указанный email будут отправлены инструкции по сбросу пароля</p>
+            </div>
+
+            <!-- Ввод токена -->
+            <div id="reset-token-form" class="auth-form">
+                <h2>Подтвердите сброс</h2>
+                <div class="form-group">
+                    <label for="reset-token">Код из письма</label>
+                    <input type="text" id="reset-token" placeholder="Введите код">
+                </div>
+                <button id="verify-token-btn" class="btn">Проверить код</button>
+            </div>
+
+            <!-- Новый пароль -->
+            <div id="new-password-form" class="auth-form">
+                <h2>Новый пароль</h2>
+                <div class="form-group">
+                    <label for="new-password">Пароль</label>
+                    <input type="password" id="new-password" placeholder="••••••••">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Повторите пароль</label>
+                    <input type="password" id="confirm-password" placeholder="••••••••">
+                </div>
+                <button id="set-password-btn" class="btn">Установить</button>
+            </div>
+
+            <!-- Форма подтверждения email -->
+            <div id="verify-form" class="auth-form">
+                <h2>Подтверждение Email</h2>
+                <div class="form-group">
+                    <label for="verify-token">Код подтверждения</label>
+                    <input type="text" id="verify-token" placeholder="Введите код из письма">
+                </div>
+                <div class="form-group">
+                    <button id="verify-btn" class="btn">Подтвердить</button>
+                </div>
+                <div class="form-group">
+                    <button id="resend-btn" class="btn secondary">Отправить код повторно</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="notification" class="notification hidden"></div>
+    <script src="auth.js"></script>
+</body>
+</html>

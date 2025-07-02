@@ -1,0 +1,15 @@
+2025-06-16 23:22:12.740 [info] Started local extension host with pid 28628.
+2025-06-16 23:22:12.771 [info] ComputeTargetPlatform: linux-x64
+2025-06-16 23:22:15.438 [info] [perf] Render performance baseline is 26ms
+2025-06-16 23:22:16.136 [info] Auto updating outdated extensions. jdinhlife.gruvbox
+2025-06-16 23:22:20.247 [error] Signature verification failed with 'UnhandledException' error.: SignatureVerificationInternal: Signature verification failed with 'UnhandledException' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)
+2025-06-16 23:22:39.970 [info] Started local extension host with pid 28726.
+2025-06-16 23:22:40.065 [info] ComputeTargetPlatform: linux-x64
+2025-06-16 23:22:40.437 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-16 23:22:42.716 [info] Auto updating outdated extensions. jdinhlife.gruvbox
+2025-06-16 23:22:42.759 [info] [perf] Render performance baseline is 27ms
+2025-06-16 23:22:45.399 [error] Signature verification failed with 'UnhandledException' error.: SignatureVerificationInternal: Signature verification failed with 'UnhandledException' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)

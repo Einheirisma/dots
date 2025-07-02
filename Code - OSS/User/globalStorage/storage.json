@@ -1,0 +1,88 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "96028808f2223f8a633489a1500bb02ecee8a72fc4e28b34736fdbe2f3ada92f",
+    "telemetry.devDeviceId": "5d035933-cb53-4c21-93d0-42a1d194d3b4",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1750717676713"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/ame/code/notify-platform": "__default__profile__",
+            "file:///home/ame/code": "__default__profile__",
+            "file:///home/ame/.config/nvim": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1750717676713": "__default__profile__"
+        }
+    },
+    "theme": "vs",
+    "themeBackground": "#ffffff",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs",
+        "colorInfo": {
+            "foreground": "#3b3b3b",
+            "background": "#ffffff",
+            "editorBackground": "#ffffff",
+            "titleBarBackground": "#f8f8f8",
+            "titleBarBorder": "#e5e5e5",
+            "activityBarBackground": "#f8f8f8",
+            "activityBarBorder": "#e5e5e5",
+            "sideBarBackground": "#f8f8f8",
+            "sideBarBorder": "#e5e5e5",
+            "statusBarBackground": "#f8f8f8",
+            "statusBarBorder": "#e5e5e5",
+            "statusBarNoFolderBackground": "#f8f8f8"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/ame/.config/Code - OSS/Backups/1750717676713",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 956,
+                "height": 1049
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 371,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "f0d5ea3699094a823837ae033f97b03b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d74d8c354d300f87939a00dfe2d407f9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a07dd23efb196335ec4f5e4dc8994e10": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

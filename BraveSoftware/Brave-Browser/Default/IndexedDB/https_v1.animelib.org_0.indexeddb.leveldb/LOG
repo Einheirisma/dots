@@ -1,0 +1,6 @@
+2025/06/28-22:40:26.972 71c Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_v1.animelib.org_0.indexeddb.leveldb since it was missing.
+2025/06/28-22:40:26.975 71c Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_v1.animelib.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/28-22:40:28.985 6eb Level-0 table #5: started
+2025/06/28-22:40:28.986 6eb Level-0 table #5: 1055 bytes OK
+2025/06/28-22:40:28.987 6eb Delete type=0 #3
+2025/06/28-22:40:28.987 6eb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

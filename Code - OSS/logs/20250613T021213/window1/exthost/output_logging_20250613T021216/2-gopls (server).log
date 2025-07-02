@@ -1,0 +1,53 @@
+[Info  - 2:12:18 AM] 2025/06/13 02:12:17 Created View (#1)
+	directory=/home/ame/code
+	view_type="AdHoc"
+	root_dir="file:///home/ame/code"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 2:12:18 AM] 2025/06/13 02:12:17 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/ame/code
+	query=[./ builtin]
+	packages=2
+	duration=32.277573ms
+
+[Info  - 2:12:18 AM] 2025/06/13 02:12:18 Created View (#2)
+	directory=/home/ame/code
+	view_type="GoMod"
+	root_dir="file:///home/ame/code/notify-platform/notification-service"
+	go_version="go version go1.24.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/ame/.cache/go-build GOMODCACHE:/home/ame/.cache/go/mod GOPATH:/home/ame/.local/share/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:24 GoVersionOutput:go version go1.24.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 2:12:19 AM] 2025/06/13 02:12:19 go/packages.Load #2
+	view_id="2"
+	snapshot=0
+	directory=/home/ame/code
+	query=[/home/ame/code/notify-platform/notification-service/... builtin]
+	packages=6
+	duration=760.086346ms
+
+[Error - 2:12:19 AM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 2:12:19 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 2:12:47 AM] 2025/06/13 02:12:47 background imports cache refresh starting
+
+[Info  - 2:12:47 AM] 2025/06/13 02:12:47 background refresh finished after 6.51819ms
+
+[Info  - 2:12:48 AM] 2025/06/13 02:12:48 background imports cache refresh starting
+
+[Info  - 2:12:49 AM] 2025/06/13 02:12:49 background refresh finished after 169.968113ms
+
+[Info  - 2:14:24 AM] 2025/06/13 02:14:24 Shutdown session
+	shutdown_session=1
+

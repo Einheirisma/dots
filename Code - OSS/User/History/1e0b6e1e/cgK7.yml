@@ -1,0 +1,175 @@
+services:
+  mysql:
+    image: mysql:8.0
+    env_file: ../.env
+    ports: ["3306:3306"]
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - notify-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+  redis:
+    image: redis:7.0-alpine
+    ports: ["6379:6379"]
+    networks:
+      - notify-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  rabbitmq:
+    image: rabbitmq:3.11-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+      - "15692:15692"
+    environment:
+      RABBITMQ_PLUGINS: "rabbitmq_management rabbitmq_prometheus"
+    command: sh -c "rabbitmq-plugins enable rabbitmq_prometheus && rabbitmq-server"
+    networks:
+      - notify-net
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports: ["9090:9090"]
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    networks:
+      - notify-net
+
+  grafana:
+    image: grafana/grafana:latest
+    ports: ["3000:3000"]
+    volumes:
+      - ./grafana/datasources.yml:/etc/grafana/provisioning/datasources/datasources.yml
+      - ./grafana/dashboards.yml:/etc/grafana/provisioning/dashboards/dashboards.yml
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+      - grafana_data:/var/lib/grafana
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    networks:
+      - notify-net
+    depends_on:
+      - prometheus
+
+  user-service:
+    build:
+      context: ../../notify-platform/user-service
+    env_file: ../.env
+    volumes:
+      - ../../notify-platform/certs:/app/certs
+    ports:
+      - "8080:8080"
+    networks:
+      notify-net:
+        aliases:
+          - user-service
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  notification-service:
+    build:
+      context: ../../notify-platform/notification-service
+    env_file: ../.env
+    volumes:
+      - ../../notify-platform/certs:/app/certs
+    ports:
+      - "8081:8081"
+    networks:
+      notify-net:
+        aliases:
+          - notification-service
+    depends_on:
+      mysql:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+
+  email-worker:
+    build:
+      context: ../../notify-platform/workers/email-worker
+    env_file: ../.env
+    ports:
+      - "8083:8083"
+    networks:
+      notify-net:
+        aliases:
+          - email-worker
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
+    restart: unless-stopped
+
+  telegram-worker:
+    build:
+      context: ../../notify-platform/workers/telegram-worker
+    env_file: ../.env
+    ports:
+      - "8084:8084"
+    networks:
+      notify-net:
+        aliases:
+          - telegram-worker
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
+    restart: unless-stopped
+
+  whatsapp-worker:
+    build:
+      context: ../../notify-platform/workers/whatsapp-worker
+    env_file: ../.env
+    ports:
+      - "8085:8085"
+    networks:
+      notify-net:
+        aliases:
+          - whatsapp-worker
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ../../notify-platform/frontend
+    ports:
+      - "8000:80"
+    networks:
+      - notify-net
+
+volumes:
+  mysql_data:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  notify-net:
+    driver: bridge

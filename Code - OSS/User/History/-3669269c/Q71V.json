@@ -1,0 +1,195 @@
+{
+  "id": null,
+  "uid": "notifications-dashboard",
+  "title": "Notification Analytics",
+  "tags": ["notifications", "analytics"],
+  "timezone": "browser",
+  "schemaVersion": 37,
+  "version": 1,
+  "refresh": "10s",
+  "panels": [
+    {
+      "id": 1,
+      "type": "graph",
+      "title": "HTTP Requests",
+      "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(http_requests_total[5m])) by (status)",
+          "legendFormat": "{{status}}",
+          "interval": "10s"
+        }
+      ],
+      "legend": {"show": true, "values": true},
+      "tooltip": {"shared": true, "sort": 2}
+    },
+    {
+      "id": 2,
+      "type": "graph",
+      "title": "Notification Processing Time",
+      "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(notification_processing_seconds_bucket[5m])) by (le, channel))",
+          "legendFormat": "{{channel}}",
+          "interval": "10s"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "stat",
+      "title": "Active Users",
+      "gridPos": {"x": 0, "y": 8, "w": 4, "h": 6},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "count(count by (user) (http_requests_total))",
+          "format": "time_series",
+          "instant": true
+        }
+      ],
+      "options": {
+        "reduceOptions": {"calcs": ["lastNotNull"]},
+        "orientation": "horizontal"
+      }
+    },
+    {
+      "id": 4,
+      "type": "gauge",
+      "title": "RabbitMQ Queue Size",
+      "gridPos": {"x": 4, "y": 8, "w": 4, "h": 6},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "rabbitmq_queue_messages",
+          "legendFormat": "{{queue}}"
+        }
+      ],
+      "options": {
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      }
+    },
+    {
+      "id": 5,
+      "type": "table",
+      "title": "Error Rates by Endpoint",
+      "gridPos": {"x": 8, "y": 8, "w": 8, "h": 6},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(http_requests_total{status=~\"5..\"}[5m])) by (path) / sum(rate(http_requests_total[5m])) by (path)",
+          "format": "table",
+          "instant": true
+        }
+      ],
+      "columns": [
+        {"text": "Endpoint", "type": "string"},
+        {"text": "Error Rate", "type": "number"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "heatmap",
+      "title": "Request Duration Distribution",
+      "gridPos": {"x": 0, "y": 14, "w": 24, "h": 10},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(http_request_duration_seconds_bucket[5m])) by (le)",
+          "format": "heatmap",
+          "legendFormat": "{{le}}"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "stat",
+      "title": "Rate Limit Usage",
+      "gridPos": {"x": 0, "y": 24, "w": 6, "h": 6},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(http_requests_total{status=\"429\"}[5m]))",
+          "format": "time_series",
+          "instant": true
+        }
+      ],
+      "options": {
+        "reduceOptions": {"calcs": ["lastNotNull"]},
+        "orientation": "horizontal",
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto"
+      }
+    },
+    {
+      "id": 8,
+      "type": "graph",
+      "title": "Notification Status",
+      "gridPos": {"x": 6, "y": 24, "w": 12, "h": 8},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(notification_status_total{status=\"sent\"}[5m])) by (channel)",
+          "legendFormat": "{{channel}} sent",
+          "interval": "10s"
+        },
+        {
+          "expr": "sum(rate(notification_status_total{status=\"failed\"}[5m])) by (channel)",
+          "legendFormat": "{{channel}} failed",
+          "interval": "10s"
+        }
+      ],
+      "legend": {"show": true, "values": true},
+      "tooltip": {"shared": true, "sort": 2}
+    },
+    {
+      "id": 9,
+      "type": "table",
+      "title": "Audit Actions",
+      "gridPos": {"x": 0, "y": 32, "w": 12, "h": 8},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "topk(5, sum by (action) (rate(audit_actions_total[5m])))",
+          "format": "table",
+          "instant": true
+        }
+      ],
+      "columns": [
+        {"text": "Action", "type": "string"},
+        {"text": "Count", "type": "number"}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "bargauge",
+      "title": "Channel Usage",
+      "gridPos": {"x": 12, "y": 32, "w": 12, "h": 8},
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(notification_status_total{status=\"sent\"}[5m])) by (channel)",
+          "format": "heatmap",
+          "legendFormat": "{{channel}}"
+        }
+      ],
+      "options": {
+        "orientation": "horizontal",
+        "displayMode": "gradient",
+        "showUnfilled": true
+      }
+    }
+  ],
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": ["5s", "10s", "30s", "1m", "5m", "15m", "30m", "1h", "2h", "1d"]
+  }
+}

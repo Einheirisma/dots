@@ -1,0 +1,14 @@
+2025/06/28-18:08:28.285 234f Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/28-18:08:28.286 234f Recovering log #347
+2025/06/28-18:08:28.286 234f Reusing old log /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000347.log 
+2025/06/28-18:08:28.286 234f Delete type=2 #345
+2025/06/28-18:08:28.312 235b Level-0 table #352: started
+2025/06/28-18:08:28.315 235b Level-0 table #352: 3765 bytes OK
+2025/06/28-18:08:28.317 235b Delete type=0 #347
+2025/06/28-18:08:28.318 2350 Manual compaction at level-0 from '\x00U\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00V\x00\x00\x00' @ 0 : 0; will stop at '\x00U\x00\x00\x05' @ 4003 : 1
+2025/06/28-18:08:28.318 2350 Compacting 1@0 + 1@1 files
+2025/06/28-18:08:28.321 2350 Generated table #353@0: 40 keys, 3321 bytes
+2025/06/28-18:08:28.321 2350 Compacted 1@0 + 1@1 files => 3321 bytes
+2025/06/28-18:08:28.323 2350 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/28-18:08:28.323 2350 Delete type=2 #352
+2025/06/28-18:08:28.324 2350 Manual compaction at level-0 from '\x00U\x00\x00\x05' @ 4003 : 1 .. '\x00V\x00\x00\x00' @ 0 : 0; will stop at (end)

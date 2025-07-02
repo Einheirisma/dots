@@ -1,0 +1,143 @@
+{
+   "AllowExtensionToRunInPrivateWindows": {
+      "message": "Для работы расширения необходимо разрешить запуск в приватных окнах, см. \u003Ca href='https://github.com/anticensority/runet-censorship-bypass/wiki/Как-разрешить-запуск-расширения-в-приватных-окнах-|-How-to-allow-extension-to-run-in-private-windows'>инструкции\u003C/a>."
+   },
+   "Anticensority": {
+      "message": "Антицензорити"
+   },
+   "Antizapret": {
+      "message": "Антизапрет"
+   },
+   "ChoosePacProviderFirstD": {
+      "message": "Сперва выберите PAC-провайдера."
+   },
+   "Disable": {
+      "message": "Отключить"
+   },
+   "DisabledD": {
+      "message": "Отключено."
+   },
+   "DisablingDDD": {
+      "message": "Отключение..."
+   },
+   "Donate": {
+      "message": "Поддержать"
+   },
+   "Error": {
+      "message": "Ошибка"
+   },
+   "Exceptions": {
+      "message": "Исключения"
+   },
+   "FailedToDownloadPacScriptFromAddresses": {
+      "message": "Не удалось скачать PAC-скрипт с адресов"
+   },
+   "Finish": {
+      "message": "Готово"
+   },
+   "FullVersion": {
+      "message": "Полная версия"
+   },
+   "InstallingDDD": {
+      "message": "Установка..."
+   },
+   "Modifiers": {
+      "message": "Модификаторы"
+   },
+   "Non_critical_error": {
+      "message": "Некритичная ошибка. Всё хорошо, продолжаем работу"
+   },
+   "Notifications": {
+      "message": "Уведомления"
+   },
+   "Only_own_sites_and_only_own_proxies": {
+      "message": "Только свои сайты и свои прокси"
+   },
+   "Own_proxies": {
+      "message": "Свои прокси"
+   },
+   "PAC_script": {
+      "message": "PAC-скрипт"
+   },
+   "PacScriptWasInstalledD": {
+      "message": "PAC-скрипт установлен."
+   },
+   "ProblemsQ": {
+      "message": "Проблемы?"
+   },
+   "ProxyTheDomainNameBelowQ": {
+      "message": "Проксировать указанное доменное имя?"
+   },
+   "Updated": {
+      "message": "Обновлялись"
+   },
+   "UpdatedD": {
+      "message": "Обновлено."
+   },
+   "UpdatingDDD": {
+      "message": "Обновляем..."
+   },
+   "Version": {
+      "message": "Версия"
+   },
+   "VersionForSlowMachines": {
+      "message": "Версия для слабых машин"
+   },
+   "WhichQ": {
+      "message": "Какое?"
+   },
+   "ago": {
+      "message": "назад"
+   },
+   "auto": {
+      "message": "авто"
+   },
+   "d": {
+      "message": "дн"
+   },
+   "extDesc": {
+      "message": "Обход интернет-цензуры в России: https://git.io/ac-wiki"
+   },
+   "extName": {
+      "message": "Обход блокировок Рунета"
+   },
+   "h": {
+      "message": "ч"
+   },
+   "m": {
+      "message": " месяцев"
+   },
+   "min": {
+      "message": "мин"
+   },
+   "ms": {
+      "message": "мс"
+   },
+   "never": {
+      "message": "никогда"
+   },
+   "no": {
+      "message": "нет"
+   },
+   "noControl": {
+      "message": "Другое расширение контролирует настройки прокси!"
+   },
+   "noOwnProxiesError": {
+      "message": "Проксировать СВОИ сайты можно только при наличии СВОИХ прокси. Нет своих прокси, удовлетворяющих вашим требованиям."
+   },
+   "proxy": {
+      "message": "прокси"
+   },
+   "s": {
+      "message": "с"
+   },
+   "update": {
+      "message": "обновить"
+   },
+   "w": {
+      "message": " недель"
+   },
+   "yes": {
+      "message": "да"
+   }
+}

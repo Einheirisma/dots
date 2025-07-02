@@ -1,0 +1,20 @@
+2025/06/08-19:17:20.026 3adb Creating DB /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_kodekloud.com_0.indexeddb.leveldb since it was missing.
+2025/06/08-19:17:20.030 3adb Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_kodekloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/08-19:17:20.140 3adb Level-0 table #5: started
+2025/06/08-19:17:20.142 3adb Level-0 table #5: 1318 bytes OK
+2025/06/08-19:17:20.143 3adb Delete type=0 #3
+2025/06/08-19:17:20.144 3adb Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/08-19:17:22.552 3ae0 Level-0 table #7: started
+2025/06/08-19:17:22.554 3ae0 Level-0 table #7: 1867 bytes OK
+2025/06/08-19:17:22.556 3ae0 Delete type=0 #4
+2025/06/08-19:17:22.556 3adb Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/08-19:18:04.151 3adb Level-0 table #9: started
+2025/06/08-19:18:04.153 3adb Level-0 table #9: 939 bytes OK
+2025/06/08-19:18:04.155 3adb Delete type=0 #6
+2025/06/08-19:18:04.156 3adb Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 165 : 1
+2025/06/08-19:18:04.156 3adb Compacting 1@0 + 1@1 files
+2025/06/08-19:18:04.157 3adb Generated table #10@0: 56 keys, 1479 bytes
+2025/06/08-19:18:04.157 3adb Compacted 1@0 + 1@1 files => 1479 bytes
+2025/06/08-19:18:04.159 3adb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/08-19:18:04.159 3adb Delete type=2 #9
+2025/06/08-19:18:04.159 3adb Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 165 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

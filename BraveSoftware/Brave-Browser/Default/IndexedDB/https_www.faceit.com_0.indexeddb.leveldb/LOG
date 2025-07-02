@@ -1,0 +1,7 @@
+2025/06/28-23:15:56.461 6ea Reusing MANIFEST /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.faceit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/28-23:15:56.461 6ea Recovering log #37
+2025/06/28-23:15:56.461 6ea Reusing old log /home/ame/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.faceit.com_0.indexeddb.leveldb/000037.log 
+2025/06/28-23:18:54.212 6ec Level-0 table #43: started
+2025/06/28-23:18:54.214 6ec Level-0 table #43: 3966 bytes OK
+2025/06/28-23:18:54.216 6ec Delete type=0 #37
+2025/06/28-23:18:54.216 6ea Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

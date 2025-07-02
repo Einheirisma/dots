@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepSeek Settings</title>
+  <style>
+    /* General Styles */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 10px;
+      padding-top: 6px;
+      margin: 0;
+      min-width: 300px;
+      max-height: 500px; /* Fixed height for Chrome extension popup */
+      overflow: hidden; /* Prevent scrollbars */
+    }
+
+    .settings-container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      padding-top: 30px;
+      position: relative; /* Ensure tooltips are positioned relative to this container */
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #3b82f6; /* Blue-600 */
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    p.subtitle {
+      font-size: 14px;
+      color: #6b7280; /* Gray-500 */
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+
+
+    /* Section Header Styles */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .icon-badge {
+      background: #e5e7eb; /* Neutral gray */
+      color: #374151; /* Dark gray */
+      border-radius: 6px;
+      padding: 4px;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px; /* Slightly smaller icons */
+    }
+
+    .section-header h3 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    /* Input and Form Styles */
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      color: #374151; /* Gray-700 */
+      margin-bottom: 8px;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #d1d5db; /* Gray-300 */
+      border-radius: 6px;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    input[type="number"]:focus {
+      outline: none;
+      border-color: #3b82f6; /* Blue-600 */
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2); /* Focus ring */
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+    }
+
+    .input-group .flex {
+      display: flex;
+      gap: 12px;
+    }
+
+    .number-inputs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .number-inputs span {
+      color: #64748b;
+      font-weight: bold;
+    }
+
+    /* Radio Button Styles */
+    .radio-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .radio-option input[type="radio"] {
+      margin: 0;
+    }
+
+    .radio-option label {
+      margin: 0;
+      font-size: 14px;
+      color: #374151; /* Gray-700 */
+    }
+
+    /* Tooltip Styles */
+    .tooltip-container {
+      display: inline-block;
+      position: relative;
+      cursor: help;
+    }
+
+    .option-help {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #3b82f6; /* Blue-600 */
+      color: white;
+      font-size: 12px;
+      text-align: center;
+      line-height: 16px;
+      margin-left: 4px;
+    }
+
+    .tooltip-text {
+      visibility: hidden;
+      width: 200px;
+      background-color: #3b82f6; /* Blue-600 */
+      color: white;
+      font-size: 12px;
+      padding: 8px;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 10;
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      transform: translateY(-10px);
+      pointer-events: none;
+      left: 50%;
+      transform: translateX(-50%) translateY(-10px);
+    }
+
+    .tooltip-container:hover .tooltip-text {
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Button Styles */
+    button {
+      width: 100%;
+      padding: 10px 16px;
+      background-color: #3b82f6; /* Blue-600 */
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #2563eb; /* Blue-700 */
+    }
+
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Focus ring */
+    }
+
+    /* Support Section */
+    .support-section {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid #e5e7eb; /* Gray-200 */
+    }
+
+    .support-button {
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 4px; 
+      flex: 1;
+      background-color: #ec4899; /* Pink-500 */
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .support-buttons-container {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .support-button:hover {
+      background-color: #db2777; /* Pink-600 */
+    }
+
+    .support-text {
+      font-size: 12px;
+      color: #6b7280; /* Gray-500 */
+      text-align: center;
+      margin-top: 8px;
+    }
+    .error {
+      color: #ff4444;
+      font-size: 12px;
+      margin-bottom: 15px;
+      display: none;
+    }
+
+
+    /* Styles for the "New chat" button */
+.a8ac7a80 {
+  color: #4d6bfe;
+  background-color: #DEEBFF;
+  cursor: pointer;
+  width: fit-content;
+  height: 28px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  align-items: center;
+  margin: 0 2px 0 2px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  overflow: hidden;
+  padding: 0 10px; /* Add padding for better spacing */
+}
+
+.a8ac7a80:hover {
+  background-color: #c6dcf8;
+}
+
+.c7dddcde {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Add gap between icon and text */
+}
+
+.c42ad70d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c42ad70d img {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(99%) saturate(748%) hue-rotate(209deg) brightness(98%) contrast(91%);
+}
+
+  </style>
+</head>
+<body>
+  <div class="settings-container">
+    <!-- Header -->
+    <h1>DeepSeek Settings</h1>
+    <p class="subtitle">Automated retry configuration</p>
+<!-- Add this inside the settings-container div, right after the subtitle -->
+<a href="https://chat.deepseek.com/" target="_blank" style="position: absolute; top: 5px; right: 5px; text-decoration: none;">
+  <div class="a8ac7a80">
+    <div class="c7dddcde">
+      <div class="c42ad70d">
+        <img src="newchat.svg" alt="Chat Icon" style="width: 16px; height: 16px;">
+      </div>
+      New chat
+    </div>
+  </div>
+</a>
+
+    <!-- Retry Timeout Section -->
+    <div class="input-group">
+      <div class="section-header">
+        <div class="icon-badge">⏱️</div>
+        <h3>Retry timeout (seconds)</h3>
+        <div class="tooltip-container">
+          <span class="option-help">?</span>
+          <div class="tooltip-text">
+            Prevents server overload<br>
+            by adding random delays <br>
+            between attempts to avoid<br>
+            potential rate-limiting issues.
+          </div>
+        </div>
+
+      </div>
+      <div class="flex">
+        <div class="number-inputs">
+          <input type="number" id="minDelay" placeholder="Min">
+          <span>...</span>
+          <input type="number" id="maxDelay" placeholder="Max">
+        </div>
+      </div>
+                  <div class="error" id="errorMessage">Error: Minimum delay cannot be greater than maximum delay or less than 1s.</div>
+    </div>
+
+    <!-- Notifications Section -->
+    <div class="input-group">
+      <div class="section-header">
+        <div class="icon-badge">🔔</div>
+        <h3>Notifications</h3>
+      </div>
+      <div class="radio-option">
+        <input type="radio" id="alertAlways" name="alertOption" value="always">
+        <label for="alertAlways">Always notify</label>
+        <div class="tooltip-container">
+          <span class="option-help">?</span>
+          <div class="tooltip-text">Show notification for every successful response</div>
+        </div>
+      </div>
+      <div class="radio-option">
+        <input type="radio" id="alertInactive" name="alertOption" value="inactive">
+        <label for="alertInactive">If the tab is inactive</label>
+        <div class="tooltip-container">
+          <span class="option-help">?</span>
+          <div class="tooltip-text">Only notify when working in other tabs</div>
+        </div>
+      </div>
+      <div class="radio-option">
+        <input type="radio" id="alertRetry" name="alertOption" value="retry">
+        <label for="alertRetry">After failures</label>
+        <div class="tooltip-container">
+          <span class="option-help">?</span>
+          <div class="tooltip-text">Notify always after "server is busy" errors</div>
+        </div>
+      </div>
+      <div class="radio-option">
+        <input type="radio" id="alertNever" name="alertOption" value="never">
+        <label for="alertNever">Never notify</label>
+        <div class="tooltip-container">
+          <span class="option-help">?</span>
+          <div class="tooltip-text">Disable all notifications</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Save Button -->
+    <button id="saveButton">Save Settings</button>
+  </div>
+
+  <!-- Support Section -->
+<div class="support-section">
+  <div class="support-buttons-container">
+    <a href="https://www.patreon.com/chromeplugin?utm_medium=v1.19&utm_source=plugin" 
+       target="_blank" 
+       class="support-button" 
+       style="background-color: #ec4899;">
+      🌟 Patreon
+    </a>
+    <a href="https://buymeacoffee.com/plugin" 
+       target="_blank" 
+       class="support-button" 
+       style="background-color: #eab308;">
+      ☕ Buy Me Coffee
+    </a>
+  </div>
+  <p class="support-text">Help keep this extension alive with your support!</p>
+</div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
