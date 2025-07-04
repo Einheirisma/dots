@@ -112,8 +112,10 @@ ntp
 mpv
 btop
 base
+niri
 curl
 wget
+neovim
 mesa
 rsync
 p7zip
@@ -124,19 +126,15 @@ go-yq
 tmux
 openssh
 ghostty
-wlroots
 swayimg
 swaybg
 linux-lts
-alsa-lib
 man-pages
 parallel
 ripgrep-all
 xdg-utils
 net-tools
 base-devel
-alsa-tools
-alsa-utils
 lib32-mesa
 mesa-vdpau
 noto-fonts
@@ -145,8 +143,6 @@ libva-utils
 brightnessctl
 xorg-xwayland
 vulkan-radeon
-i3status-rust
-autotiling-rs
 linux-firmware
 docker-compose
 pacman-contrib
@@ -161,19 +157,15 @@ lib32-mesa-vdpau
 archlinux-keyring
 xf86-video-amdgpu
 lib32-vulkan-radeon
-xdg-desktop-portal-wlr
 lib32-vulkan-icd-loader
 lib32-libva-mesa-driver
+xwayland-satellite
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
+gnome-keyring
 
-sudo systemctl enable alsa
+
 sudo systemctl enable ntpd
-sudo pacman -Runs pulseaudio pulseaudio-alsa
-systemctl --user --now stop pulseaudio.service pulseaudio.socket
-systemctl --user --now disable pulseaudio.service pulseaudio.socket
-systemctl --user --now stop pipewire-pulse.socket
-systemctl --user --now disable pipewire-pulse.socket
-systemctl --user --now stop pipewire-pulse.service
-systemctl --user --now disable pipewire-pulse.service
 sudo mkdir /etc/pacman.d/hooks
 sudo nvim /etc/pacman.d/hooks/paccache.hook
 #####
