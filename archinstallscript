@@ -164,6 +164,7 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome
 gnome-keyring
 nautilus
+dart-sass
 
 sudo systemctl enable ntpd
 sudo mkdir /etc/pacman.d/hooks
