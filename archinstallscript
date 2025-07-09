@@ -162,7 +162,6 @@ lib32-libva-mesa-driver
 xwayland-satellite
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome
-gnome-keyring
 nautilus
 dart-sass
 
