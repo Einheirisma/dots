@@ -184,7 +184,7 @@ git clone https://aur.archlinux.org/paru.git ~/.paru
 cd .paru
 makepkg -rsi
 cd .. && rm -rf ~/.paru
-paru -S brave-bin wl-clipboard-rs libva-vdpau-driver-wayland mawk blesh
+paru -S brave-bin wl-clipboard-rs libva-vdpau-driver-wayland mawk blesh zen-browser-bin
 sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 systemctl status fstrim.timer
