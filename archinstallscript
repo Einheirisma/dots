@@ -152,7 +152,7 @@ lib32-libvdpau
 docker-compose
 lib32-mesa-vdpau
 noto-fonts-emoji
-ttf-font-awesome
+woff2-font-awesome
 linux-lts-headers
 libva-mesa-driver
 archlinux-keyring
