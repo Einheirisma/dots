@@ -1,0 +1,9 @@
+#
+# /home/$USER/.config/bat/config
+#
+
+# Decorations
+--force-colorization
+
+# Theme
+--theme="gruvbox-dark"
