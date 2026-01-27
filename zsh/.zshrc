@@ -5,8 +5,6 @@
 # Source files
 [ -f "$XDG_CONFIG_HOME/shell/alias" ] && source "$XDG_CONFIG_HOME/shell/alias"
 [ -f "$XDG_CONFIG_HOME/shell/fn" ] && source "$XDG_CONFIG_HOME/shell/fn"
-[ -f "$XDG_DATA_HOME/tinted-theming/tinty/repos/tinted-shell/base16-gruvbox-material-dark-hard.sh" ] && source "$XDG_DATA_HOME/tinted-theming/tinty/repos/tinted-shell/base16-gruvbox-material-dark-hard.sh"
-[ -f "$XDG_DATA_HOME/tinted-theming/tinty/repos/tinted-fzf/base16-gruvbox-material-dark-hard.sh" ] && source "$XDG_DATA_HOME/tinted-theming/tinty/repos/tinted-fzf/base16-gruvbox-material-dark-hard.sh"
 
 # Load modules
 zmodload zsh/complist

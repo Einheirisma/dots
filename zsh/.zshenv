@@ -20,9 +20,8 @@ export XDG_CACHE_HOME="$HOME/.cache"
 
 # History files
 export HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zsh_history"
-export WGET_HOME="${XDG_CACHE_HOME:-$HOME/.cache}/wget/wget_history"
 export LESSHISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/less/less_history"
-export PYTHON_HISTORY="${XDG_DATA_HOME:-$HOME/.local/share}/python/python_history"
+export PYTHON_HISTORY="${XDG_CACHE_HOME:-$HOME/.cache}/python/python_history"
 
 # Moving other files and some other variables
 export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"

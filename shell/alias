@@ -7,8 +7,8 @@ alias \
 e="nvim" \
 se="sudo nvim" \
 cat="bat" \
-bat="bat --theme='gruvbox-dark'" \
 ls="eza --group-directories-first --classify=always --color=always --color-scale=all --icons=always --no-quotes" \
+l="eza --almost-all --long --group-directories-first --classify=always --color=always --color-scale=all --icons=always --no-quotes --grid" \
 ll="eza --almost-all --long --group-directories-first --classify=always --color=always --color-scale=all --icons=always --no-quotes" \
 tree="eza --almost-all --long --group-directories-first --classify=always --color=always --color-scale=all --icons=always --no-quotes --tree" \
 grep="grep --color=auto"
